@@ -18,7 +18,7 @@ GitHub Pages를 통해 각 강의 섹션별로 내용을 확인할 수 있습니
 
 | 섹션 | 주제 | 주요 학습 내용 | 정리 링크 |
 |------|------|----------------|------------|
-| 01 | 리액트 소개 및 프로젝트 세팅 | 리액트란 관련 소개 | [📎 보기](https://yourusername.github.io/your-repo/section-01) |
+| 01 | 리액트 소개 및 프로젝트 세팅 | 리액트 개요 및 소개 | [📎 보기](https://yourusername.github.io/your-repo/section-01) |
 | 02 | 자바스크립트 새로고침 | JS 기초 복습 (let/const, 함수, 객체 등) | [📎 보기](https://yourusername.github.io/your-repo/section-02) |
 | 03 | 리액트 핵심 | 컴포넌트, JSX, props, state | [📎 보기](https://yourusername.github.io/your-repo/section-03) |
 | 04 | 리액트 심화 | 컴포넌트, JSX, props, state 심화단계, tic tac toe구현 | [📎 보기](https://yourusername.github.io/your-repo/section-04) |
@@ -83,3 +83,6 @@ GitHub Pages를 통해 각 강의 섹션별로 내용을 확인할 수 있습니
 - 이름: Kwon
 - GitHub: [https://github.com/sosiluv](https://github.com/sosiluv)  
 - 블로그: [DevStudyNote](https://sosiluv.github.io/)
+
+---
+
