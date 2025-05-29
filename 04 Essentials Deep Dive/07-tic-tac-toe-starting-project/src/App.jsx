@@ -84,13 +84,17 @@ function App() {
     setGameTurns([]);
   }
 
+  // function handlePlayerNameChange(symbol, newName) {
+  //   setPlayers((prevPlayers) => {
+  //     return {
+  //       ...prevPlayers,
+  //       [symbol]: newName,
+  //     };
+  //   });
+  // }
+
   function handlePlayerNameChange(symbol, newName) {
-    setPlayers((prevPlayers) => {
-      return {
-        ...prevPlayers,
-        [symbol]: newName,
-      };
-    });
+    setPlayers((prevPlayers) => ({ ...prevPlayers, [symbol]: newName }));
   }
 
   return (
