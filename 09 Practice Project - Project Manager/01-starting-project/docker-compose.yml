@@ -1,0 +1,26 @@
+services:
+  react-app:
+    # Dockerfile이 있는 경로 지정
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    # 컨테이너 이름 명시
+    container_name: test_repo
+    # 사용할 docker이미지 지정
+    image: sosiluv/test_repo:latest
+    # command:
+    # 포트 포워딩 설정
+    ports:
+      - "3000:5173"
+    restart: always
+    # 호스트 컨테이너 volume 마운트
+    volumes:
+      - ./src:/app/src
+    # -it 옵션을 위해 사용됨 (표준입출력)
+    stdin_open: true
+    tty: true
+    # 직접 환경 변수 명시 가능
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+  # .env 파일에 있는 변수들 자동 로딩
+  #  env_file:
